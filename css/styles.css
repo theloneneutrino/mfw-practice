@@ -1,0 +1,41 @@
+.one {
+    background-color: yellow;
+}
+
+.two {
+    position: absolute;
+    left: 50%;
+    margin: 10px;
+
+    transform: translateX(-50%);
+}
+
+
+
+.box {
+    border: 1px solid black;
+}
+
+.header {
+    height: 150px;
+}
+
+.nav {
+    height: 40px;
+}
+
+.content {
+    height: 200px;
+}
+
+.aside {
+    height: 100%;
+}
+
+.promos, .promo {
+    height: 150px;
+}
+
+.footer {
+    height: 40px;
+}
