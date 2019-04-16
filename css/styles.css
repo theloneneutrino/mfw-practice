@@ -1,4 +1,4 @@
-.one {
+.container-fluid {
     background-color: yellow;
 }
 
@@ -10,32 +10,40 @@
     transform: translateX(-50%);
 }
 
-
-
 .box {
     border: 1px solid black;
 }
 
-.header {
+header {
     height: 150px;
+    background-color: blue;
 }
 
-.nav {
+nav {
     height: 40px;
+    background-color: green;
 }
 
-.content {
+main, aside {
     height: 200px;
+
 }
 
-.aside {
-    height: 100%;
+main > main {
+    background-color: red;
 }
 
-.promos, .promo {
+aside {
+    background-color: aqua;
+}
+
+footer.promos, footer.promos > div {
     height: 150px;
+    background-color: orange;
 }
 
 .footer {
     height: 40px;
+    background-color: black;
+    color: antiquewhite;
 }
